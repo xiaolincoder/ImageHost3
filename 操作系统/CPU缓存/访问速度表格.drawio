@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T06:19:39.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.7.9" etag="JwLSUbpvTckvk5j3L2E3" type="github"><diagram id="-0xnnY1vKIr96uXD6Hnk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-17T06:23:16.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="qXgQvpM-Gpnsielp6q7T" version="13.7.9" type="github">
+  <diagram id="-0xnnY1vKIr96uXD6Hnk" name="Page-1">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-11" value="时钟周期是 CPU 主频的倒数，&lt;br style=&quot;font-size: 16px;&quot;&gt;比如 2GHZ 主频的 CPU，一个时钟周期是 0.5ns" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-1" value="部件" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-2" value="CPU 访问所需时间" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="240" width="262.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-3" value="L1 Cache" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="280" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-4" value="L2 Cache" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="320" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-5" value="L3 Cache" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-6" value="内存" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="130" y="400" width="157.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-7" value="2~4 个时钟周期" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="280" width="262.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-8" value="10~20 个时钟周期" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="320" width="262.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-9" value="20~60 个时钟周期" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="360" width="262.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1rU6BAcgztyh8wdnqGgF-10" value="200~300 个时钟周期" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#f9f7ed;fontSize=16;strokeColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="400" width="262.5" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
