@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-17T05:31:05.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="TNplK0wYt5VCIJlUBvG6" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-17T05:32:14.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="Y_3MEskwo1X9LemqXnih" version="13.7.9" type="github">
   <diagram id="jzcbTq0jPRGd7s8sM-Ae" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="sziwZIUHEcl3UfsQVGRr-3" value="....." style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sziwZIUHEcl3UfsQVGRr-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Cache Line 8&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="sziwZIUHEcl3UfsQVGRr-5" value="&lt;font style=&quot;font-size: 16px&quot;&gt;Cache Line 7&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="80" y="520" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sziwZIUHEcl3UfsQVGRr-6" value="CPU Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
@@ -76,6 +76,9 @@
         </mxCell>
         <mxCell id="sziwZIUHEcl3UfsQVGRr-28" value="Block 32" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="414" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sziwZIUHEcl3UfsQVGRr-29" value="Cache Line 8" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;fillWeight=4;hachureGap=8;hachureAngle=45;sketch=0;comic=1;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
