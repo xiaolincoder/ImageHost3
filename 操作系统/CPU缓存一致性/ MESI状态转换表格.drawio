@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T10:38:12.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="TDHLi2UeiGFhIMwG8Tor" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T12:38:20.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="cMAWzKisqWm6HzVkLbiK" version="13.8.1" type="github">
   <diagram id="H_X2Ao0RTOzGFtQJGk72" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,10 @@
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-5" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Local &lt;br&gt;Read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="120" width="90" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-7" value="&lt;div&gt;如果其它 Cache 没有这份数据，本地核心的Cache从内存中读取数据，Cache Line状态变成 E；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则将数据更新到内存，本地核心的 Cache 再从内存中取数据，这 2 个 Cache 的 Cache Line 状态都变成S；&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 S 或者E，本地核心的 Cache 从内存中取数据，这些 Cache 的 Cache Line 状态都变成 S；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-7" value="&lt;div&gt;如果其它核心的 Cache 没有这份数据，本地核心的 Cache 从内存中读取数据，Cache Line 状态变成 E；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则将数据更新到内存，本地核心的 Cache 再从内存中取数据，这 2 个 Cache 的 Cache Line 状态都变成 S；&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 S 或者E，本地核心的 Cache 从内存中取数据，这些 Cache 的 Cache Line 状态都变成 S；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="120" width="390" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-8" value="&lt;div&gt;从内存中读取数据，在 Cache 中修改，状态变成 M；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则要先将数据更新到内存；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，则其它 Cache 的Cache Line状态变成 I；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-8" value="&lt;div&gt;从内存中读取数据，缓存到 Cache，再在 Cache 中更新数据，状态变成 M；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则要先将其他核心的 Cache 里的数据写回到内存；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，则其它 Cache 的Cache Line状态变成 I；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="340" width="390" height="160" as="geometry" />
         </mxCell>
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
