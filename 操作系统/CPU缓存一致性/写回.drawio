@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T05:55:04.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="L5RVADO6-OGSaXxXXINd" type="github"><diagram id="3Ettr56oIvg5ghhCJd6h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-25T06:19:31.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="Y8KlxOHoWP2-r3uuTRE8" version="13.8.1" type="github">
+  <diagram id="3Ettr56oIvg5ghhCJd6h" name="Page-1">
+    <mxGraphModel dx="4512" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DdXY0tL-rXivxtXzACEE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-2" target="DdXY0tL-rXivxtXzACEE-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-2" value="CPU 发起&lt;br&gt;写入数据的操作" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-3" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-5" target="DdXY0tL-rXivxtXzACEE-19">
+          <mxGeometry x="-0.9198" relative="1" as="geometry">
+            <mxPoint x="570" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="385" />
+              <mxPoint x="630" y="1060" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-4" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-5" target="DdXY0tL-rXivxtXzACEE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-5" value="检查数据是否在 &lt;br style=&quot;font-size: 16px;&quot;&gt;CPU Cache 里面？" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="227" y="300" width="186" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-9" target="DdXY0tL-rXivxtXzACEE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-9" value="定位数据所对应的 Cache Block" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="549.5" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-10" value="完成" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcccc;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1260" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-15" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-11" target="DdXY0tL-rXivxtXzACEE-14">
+          <mxGeometry x="-0.5698" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-16" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-11" target="DdXY0tL-rXivxtXzACEE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-11" value="Cache Block 是否标&lt;br style=&quot;font-size: 16px;&quot;&gt;记为脏的" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffff88;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="227" y="670" width="186" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-13" target="DdXY0tL-rXivxtXzACEE-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-13" value="从内存读取当前&lt;br style=&quot;font-size: 16px;&quot;&gt;要写入的数据到 Cache Block" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="910" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-14" target="DdXY0tL-rXivxtXzACEE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-14" value="&lt;br style=&quot;font-size: 16px&quot;&gt;将 Cache Block 中的&lt;br&gt;数据写回到内存&lt;br style=&quot;font-size: 16px&quot;&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-size: 16px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%AE%9A%E4%BD%8D%E6%95%B0%E6%8D%AE%E6%89%80%E5%AF%B9%E5%BA%94%E7%9A%84%20Cache%20Block%22%20style%3D%22rounded%3D1%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfontSize%3D16%3BfillColor%3D%23cce5ff%3BstrokeColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22240%22%20y%3D%22930%22%20width%3D%22160%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="450" y="810" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-19" target="DdXY0tL-rXivxtXzACEE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-19" value="将当前数据写入到&lt;br style=&quot;font-size: 16px&quot;&gt;Cache Block&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1020" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontFamily=Comic Sans MS;" edge="1" parent="1" source="DdXY0tL-rXivxtXzACEE-21" target="DdXY0tL-rXivxtXzACEE-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DdXY0tL-rXivxtXzACEE-21" value="将此 Cache Block&amp;nbsp;&lt;br style=&quot;font-size: 16px&quot;&gt;标记为脏的" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1140" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
