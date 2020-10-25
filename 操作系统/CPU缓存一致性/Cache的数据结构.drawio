@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T05:31:53.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="fNmwGLlgBiS8ZO473_Wr" type="github"><diagram id="7S2QRdOjQJ8ASGmGIhaT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-25T05:37:45.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="TZJZCaUGMvycUjPlKx32" version="13.8.1" type="github">
+  <diagram id="7S2QRdOjQJ8ASGmGIhaT" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-15" value="&lt;font style=&quot;font-size: 20px&quot;&gt;&lt;b&gt;CPU Cache&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#f9f7ed;verticalAlign=bottom;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="164.98" y="40" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-1" value="头标志&lt;br style=&quot;font-size: 16px&quot;&gt;Tag" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-2" value="数据块&lt;br&gt;Data Block" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-3" value="头标志&lt;br style=&quot;font-size: 16px&quot;&gt;Tag" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-4" value="数据块&lt;br&gt;Data Block" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-7" value="头标志&lt;br style=&quot;font-size: 16px&quot;&gt;Tag" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-8" value="数据块&lt;br&gt;Data Block" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-9" value="头标志&lt;br style=&quot;font-size: 16px&quot;&gt;Tag" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-10" value="数据块&lt;br&gt;Data Block" style="rounded=1;whiteSpace=wrap;html=1;comic=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;comic=1;fontFamily=Comic Sans MS;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="374.98" y="-90" width="20" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="qwUn_AKZOoFK-tbGca6v-14" value="Cache Line" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="90" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
