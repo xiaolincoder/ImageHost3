@@ -1,1 +1,145 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T10:17:17.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.1" etag="K5FNVkMyGjYxFn0qYi--" type="github"><diagram id="H_X2Ao0RTOzGFtQJGk72">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-25T10:38:12.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="TDHLi2UeiGFhIMwG8Tor" version="13.8.1" type="github">
+  <diagram id="H_X2Ao0RTOzGFtQJGk72" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-1" value="当前状态" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="90" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-2" value="事件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-3" value="行为" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-5" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Local &lt;br&gt;Read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="90" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-7" value="&lt;div&gt;如果其它 Cache 没有这份数据，本地核心的Cache从内存中读取数据，Cache Line状态变成 E；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则将数据更新到内存，本地核心的 Cache 再从内存中取数据，这 2 个 Cache 的 Cache Line 状态都变成S；&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 S 或者E，本地核心的 Cache 从内存中取数据，这些 Cache 的 Cache Line 状态都变成 S；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="390" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-8" value="&lt;div&gt;从内存中读取数据，在 Cache 中修改，状态变成 M；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，且状态为 M，则要先将数据更新到内存；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果其它核心的 Cache 有这份数据，则其它 Cache 的Cache Line状态变成 I；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="340" width="390" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="340" width="90" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-10" value="既然是 Invalid，别的核的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-13" value="既然是 Invalid，别的核的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-15" value="已失效&lt;br&gt;I(Invalid)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="90" y="120" width="100" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-20" value="数据和其它核共用，状态变成了 S" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="700" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="700" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-22" value="数据被修改，本地核心的 Cache Line 中的数据不能再使用，状态变成 I" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="750" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-23" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="750" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-24" value="独占&lt;br&gt;E(Exclusive)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="600" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-25" value="" style="group;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="600" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-16" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Local &lt;br&gt;Read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-25">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-17" value="从 Cache 中取数据，状态不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-25">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-26" value="" style="group;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="650" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-18" value="修改 Cache 中的数据，状态变成M" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-26">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-26">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-27" value="状态不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-28" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="900" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-29" value="数据被修改，本地核心的 Cache Line 中的数据不能再使用，状态变成 I" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="950" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-30" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="950" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-31" value="共享&lt;br&gt;S(Shared)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="800" width="100" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-32" value="" style="group;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="800" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-33" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;br style=&quot;font-size: 14px ; text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-32">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-34" value="从 Cache 中取数据，状态不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-32">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-35" value="" style="group;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="850" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-36" value="&lt;div&gt;修改 Cache 中的数据，状态变成 M，&lt;/div&gt;&lt;div&gt;其它核共享的 Cache Line 状态变成 I&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-35">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-37" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-35">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-38" value="Cache Line 的数据被写到内存中，使其它核能使用到最新的数据，状态变成 S" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1100" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-39" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1100" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-40" value="Cache Line 的&lt;span&gt;数据被写到内存中，使其它核能使用到最新的数据，由于其它核会修改这行数据，&lt;/span&gt;&lt;span&gt;状态变成 I&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1150" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-41" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1150" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-42" value="已修改&lt;br&gt;M(Modified)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1000" width="100" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-43" value="" style="group;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="1000" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-44" value="&lt;span style=&quot;font-size: 14px ; text-align: left&quot;&gt;Local &lt;br&gt;Read&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-43">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-45" value="从 Cache 中取数据，状态不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#d79b00;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-43">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-46" value="" style="group;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="1050" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-47" value="修改 Cache 中的数据，状态不变" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#d79b00;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-46">
+          <mxGeometry x="90" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-48" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-46">
+          <mxGeometry width="90" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
