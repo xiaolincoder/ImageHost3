@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T12:39:36.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="HCbzOLOv5GptfBxgGCcr" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T12:42:31.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="bLXe-ZykcDVkbwYzt4hd" version="13.8.1" type="github">
   <diagram id="H_X2Ao0RTOzGFtQJGk72" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-15" value="已失效&lt;br&gt;I(Invalid)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="90" y="120" width="100" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-20" value="数据和其它核共用，状态变成了 S" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-20" value="数据和其它核心共用，状态变成了 S" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="280" y="700" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-21" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -100,7 +100,7 @@
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-35" value="" style="group;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="190" y="850" width="480" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-36" value="&lt;div&gt;修改 Cache 中的数据，状态变成 M，&lt;/div&gt;&lt;div&gt;其它核共享的 Cache Line 状态变成 I&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-35">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-36" value="&lt;div&gt;修改 Cache 中的数据，状态变成 M，&lt;/div&gt;&lt;div&gt;其它核心共享的 Cache Line 状态变成 I&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-35">
           <mxGeometry x="90" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-37" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="tkkjbWvbHhPlk-BtSmLQ-35">
