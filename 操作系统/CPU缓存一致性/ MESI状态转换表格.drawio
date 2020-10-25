@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-25T12:39:18.946Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="xO-sJA_gfqU-0ZSAGSDV" version="13.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-25T12:39:36.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="HCbzOLOv5GptfBxgGCcr" version="13.8.1" type="github">
   <diagram id="H_X2Ao0RTOzGFtQJGk72" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,13 +25,13 @@
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-9" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Local&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="340" width="90" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-10" value="既然是 Invalid，别的核的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-10" value="既然是 Invalid，其他核心的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="500" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-11" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Read&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="190" y="500" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-13" value="既然是 Invalid，别的核的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="tkkjbWvbHhPlk-BtSmLQ-13" value="既然是 Invalid，其他核心的操作与它无关" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;fontSize=16;align=left;fontFamily=Comic Sans MS;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="280" y="550" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tkkjbWvbHhPlk-BtSmLQ-14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Remote&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;Write&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
