@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-01T01:58:44.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="8fQXqCaAKsL_RENlgRA8" version="13.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-01T02:00:32.544Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="i8BJaHkap8-42B3A8ixt" version="13.8.3" type="github">
   <diagram id="xRgPO_OI01El1WyXyFar" name="Page-1">
-    <mxGraphModel dx="1484" dy="2243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="2054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,15 +19,10 @@
         <mxCell id="PAtPEhYprobVbkj1tvhr-5" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeWidth=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="20" y="70" width="219.31034482758616" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="PAtPEhYprobVbkj1tvhr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-11" target="PAtPEhYprobVbkj1tvhr-5">
-          <mxGeometry x="20" y="70" as="geometry">
-            <mxPoint x="44.36781609195402" y="142" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PAtPEhYprobVbkj1tvhr-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="147.9310344827586" y="244" width="24.36781609195402" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="PAtPEhYprobVbkj1tvhr-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-12" target="PAtPEhYprobVbkj1tvhr-4">
+        <mxCell id="PAtPEhYprobVbkj1tvhr-8" value="1. 从内存读取数据&lt;br&gt;到 Cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-12" target="PAtPEhYprobVbkj1tvhr-4">
           <mxGeometry x="20" y="70" as="geometry" />
         </mxCell>
         <mxCell id="PAtPEhYprobVbkj1tvhr-9" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
@@ -153,8 +148,10 @@
         <mxCell id="PAtPEhYprobVbkj1tvhr-49" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeWidth=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="360.34000000000003" y="-72.5" width="160" height="82.5" as="geometry" />
         </mxCell>
-        <mxCell id="PAtPEhYprobVbkj1tvhr-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-51" target="PAtPEhYprobVbkj1tvhr-37">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PAtPEhYprobVbkj1tvhr-50" value="2. 从 Cache 读取数据" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-51" target="PAtPEhYprobVbkj1tvhr-37">
+          <mxGeometry x="-0.6289" y="19" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PAtPEhYprobVbkj1tvhr-51" value="&lt;font style=&quot;font-size: 16px&quot;&gt;B 线程&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=0;strokeWidth=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="-60" width="122.18" height="60" as="geometry" />
@@ -167,9 +164,6 @@
         </mxCell>
         <mxCell id="PAtPEhYprobVbkj1tvhr-54" value="Cache Line" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="74.66000000000003" y="121" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PAtPEhYprobVbkj1tvhr-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PAtPEhYprobVbkj1tvhr-2" target="PAtPEhYprobVbkj1tvhr-28">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PAtPEhYprobVbkj1tvhr-56" value="内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=18;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="256.95000000000005" y="320" width="50" height="30" as="geometry" />
