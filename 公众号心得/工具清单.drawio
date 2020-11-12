@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T10:52:26.232Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.9.1" etag="dY1sD1__HtEZD9M9z9hJ" type="github"><diagram id="WO4q8NT9uQvqUoCukNqC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-12T11:00:18.953Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="3ANWt-vGwObBaYvxRznI" version="13.9.1" type="github">
+  <diagram id="WO4q8NT9uQvqUoCukNqC" name="第 1 页">
+    <mxGraphModel dx="760" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zzhkkCAXlR-vppr8023b-1" value="排版" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="163.33333333333334" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-2" value="md2all" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="163.33333333333334" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-3" value="写文章" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="121.66666666666667" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-4" value="事项" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-5" value="工具" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffcc99;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="80" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-6" value="有道云笔记（markdown）" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="121.66666666666667" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-7" value="画图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="205" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-8" value="draw.io" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="205" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-9" value="代码贴图" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="246.66666666666669" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-10" value="https://carbon.now.sh/" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="246.66666666666669" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-11" value="博客平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="288.33333333333337" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-12" value="CSDN、知乎、博客园、掘金、思否、infoQ、牛客等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="288.33333333333337" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
