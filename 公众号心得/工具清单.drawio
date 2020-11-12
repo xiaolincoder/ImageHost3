@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-12T11:00:18.953Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="3ANWt-vGwObBaYvxRznI" version="13.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-12T11:26:27.938Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="V5GUtZ2bf39d5_-L1cRw" version="13.9.1" type="github">
   <diagram id="WO4q8NT9uQvqUoCukNqC" name="第 1 页">
     <mxGraphModel dx="760" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,10 +35,16 @@
           <mxGeometry x="222.3529411764706" y="246.66666666666669" width="297.64705882352945" height="41.66666666666667" as="geometry" />
         </mxCell>
         <mxCell id="zzhkkCAXlR-vppr8023b-11" value="博客平台" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
-          <mxGeometry x="80" y="288.33333333333337" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+          <mxGeometry x="80" y="330.0033333333334" width="142.3529411764706" height="41.66666666666667" as="geometry" />
         </mxCell>
         <mxCell id="zzhkkCAXlR-vppr8023b-12" value="CSDN、知乎、博客园、掘金、思否、infoQ、牛客等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
-          <mxGeometry x="222.3529411764706" y="288.33333333333337" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+          <mxGeometry x="222.3529411764706" y="330.0033333333334" width="297.64705882352945" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-14" value="图床" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="80" y="288.3366666666667" width="142.3529411764706" height="41.66666666666667" as="geometry" />
+        </mxCell>
+        <mxCell id="zzhkkCAXlR-vppr8023b-15" value="&lt;span style=&quot;box-sizing: border-box; color: rgb(36, 41, 46); font-size: 14px;&quot;&gt;jsDeliver + github&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f9f7ed;labelBorderColor=none;strokeColor=#B3B3B3;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="222.3529411764706" y="288.3366666666667" width="297.64705882352945" height="41.66666666666667" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
