@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T09:45:26.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" version="13.9.9" etag="vpPaWUGy-jYf2QkRUzoZ" type="github"><diagram id="NziIje9fRNmmJerk7CwX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-29T09:56:59.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="V847ZM5Wf6x6YGB4FMtS" version="13.9.9" type="github">
+  <diagram id="NziIje9fRNmmJerk7CwX" name="第 1 页">
+    <mxGraphModel dx="830" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-9" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&amp;nbsp;1 的二进制&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-1" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-2" value="0000000000000000000000000000001" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-3" value="符号位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-4" value="数据位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="200" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zyT7hhPbVF7DiLu4Z04I-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="20" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
