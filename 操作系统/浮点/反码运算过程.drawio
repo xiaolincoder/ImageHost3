@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T10:24:32.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" version="13.9.9" etag="iP4sGKIDRKapAXaKW3AN" type="github"><diagram id="p6OnbMVp6eIBeCetGT9h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-29T10:26:38.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="eGhX4u5avL9qo3py42Du" version="13.9.9" type="github">
+  <diagram id="p6OnbMVp6eIBeCetGT9h" name="第 1 页">
+    <mxGraphModel dx="830" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-1" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&amp;nbsp;-2 的二进制&lt;br&gt;（补码表示方式）&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="330" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-2" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="430" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-3" value="11111111111111111111111111111&lt;font color=&quot;#ff3399&quot;&gt;10&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="430" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-4" value="符号位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="380" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="390" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-6" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&amp;nbsp;1 的二进制&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="590" width="410" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-7" value="0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="670" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-8" value="0000000000000000000000000000001" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="670" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-9" value="符号位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="110" y="620" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="125" y="630" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-13" value="" style="group;noLabel=1;fontColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="500" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-14" value="" style="endArrow=none;html=1;fontSize=16;fontColor=#FF3399;strokeWidth=3;" edge="1" parent="rT82piPRz1-Dc6psi8Pd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="30" as="sourcePoint" />
+            <mxPoint x="70" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-15" value="" style="endArrow=none;html=1;fontSize=16;fontColor=#FF3399;strokeWidth=3;" edge="1" parent="rT82piPRz1-Dc6psi8Pd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="35" y="60" as="sourcePoint" />
+            <mxPoint x="35" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-16" value="" style="endArrow=none;html=1;fontSize=16;fontColor=#FF3399;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry x="270" y="720" width="50" height="50" as="geometry">
+            <mxPoint x="270" y="750" as="sourcePoint" />
+            <mxPoint x="340" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-17" value="" style="endArrow=none;html=1;fontSize=16;fontColor=#FF3399;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry x="235" y="720" width="50" height="50" as="geometry">
+            <mxPoint x="270" y="780" as="sourcePoint" />
+            <mxPoint x="340" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-18" value="&lt;font size=&quot;1&quot;&gt;&lt;b style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&amp;nbsp;-1 的二进制&lt;br&gt;（补码表示方式）&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#f9f7ed;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="800" width="410" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-19" value="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="900" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-20" value="11111111111111111111111111111&lt;font color=&quot;#ff3399&quot;&gt;11&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=#dae8fc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="900" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-21" value="符号位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="850" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-22" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="135" y="860" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rT82piPRz1-Dc6psi8Pd-23" value="跟预期的一样" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#cdeb8b;fontSize=16;labelBackgroundColor=none;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="250" y="800" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
