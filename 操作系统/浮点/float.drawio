@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T09:23:16.681Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="iVcBoceV7UnvWP1ty_Xz" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T00:27:46.305Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="WVsNoc_7qP795B7aPlHZ" version="13.10.6" type="github">
   <diagram id="jOrecIeyi7dfDyRyTcjo" name="第 1 页">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="JWH3xMkIjFkR5F-2v42N-6" value="23 位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="360" y="270" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JWH3xMkIjFkR5F-2v42N-7" value="阶码位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="JWH3xMkIjFkR5F-2v42N-7" value="指数位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="255" y="220" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JWH3xMkIjFkR5F-2v42N-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" parent="1" vertex="1">
@@ -52,7 +52,7 @@
         <mxCell id="7nrUOBvX0Mu3x5XUfRwF-6" value="52 位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="370" y="495" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7nrUOBvX0Mu3x5XUfRwF-7" value="阶码位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="7nrUOBvX0Mu3x5XUfRwF-7" value="指数位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="265" y="445" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="7nrUOBvX0Mu3x5XUfRwF-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
@@ -64,7 +64,7 @@
         <mxCell id="7nrUOBvX0Mu3x5XUfRwF-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="482.5" y="360" width="20" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="7nrUOBvX0Mu3x5XUfRwF-11" value="" style="endArrow=none;html=1;fontSize=18;fontColor=#FF0000;" edge="1" parent="1">
+        <mxCell id="7nrUOBvX0Mu3x5XUfRwF-11" value="" style="endArrow=none;html=1;fontSize=18;fontColor=#FF0000;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="81.25" y="360" as="sourcePoint" />
             <mxPoint x="668.75" y="360" as="targetPoint" />
