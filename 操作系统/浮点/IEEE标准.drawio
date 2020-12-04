@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T00:35:57.704Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" version="13.10.6" etag="KO5wCwzE5yLe1FVu6LFT" type="github"><diagram id="o6-02MHNAyTs45NHfCQC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-04T00:36:41.674Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="Dg2kozjLBqmgQUgIAqK_" version="13.10.6" type="github">
+  <diagram id="o6-02MHNAyTs45NHfCQC" name="第 1 页">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lt4UfpBqvxE1fhVSQtRZ-1" value="符号位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lt4UfpBqvxE1fhVSQtRZ-2" value="指数位" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lt4UfpBqvxE1fhVSQtRZ-5" value="&lt;span&gt;尾数&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#cdeb8b;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="250" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
